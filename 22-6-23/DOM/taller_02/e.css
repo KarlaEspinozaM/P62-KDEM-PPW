@@ -1,0 +1,15 @@
+img{
+    clear: both;
+    width: 200px;
+    float: left;
+margin-bottom: 45px;
+}
+
+.es1 .es2{
+    clear: both;
+}
+
+p{
+    float: left;
+    top: 20px;
+}
