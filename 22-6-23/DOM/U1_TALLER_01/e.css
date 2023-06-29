@@ -1,0 +1,39 @@
+.opcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.centro {
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    transform: translate(50%, 50%);
+
+}
+
+#opcion1 {
+    background-color: rgb(216, 197, 250);
+   
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#opcion2 {
+    background-color: rgb(238, 169, 169);
+    
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
